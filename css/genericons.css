@@ -17,14 +17,11 @@
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   line-height: 1;
-  font-family: 'Genericons';
+  font-family: 'Genericons',sans-serif;
   text-decoration: inherit;
   font-weight: normal;
   font-style: normal;
   vertical-align: top;
-  *overflow: auto;
-  *zoom: 1;
-  *display: inline;
 }
 
 .genericon-standard::before {
