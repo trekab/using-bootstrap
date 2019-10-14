@@ -78,6 +78,19 @@ p {
 	color: #f72210;
 }
 
+#top-search {
+	width: 80px;
+	font-size: 18px;
+}
+.top-search__icon {
+	width: 25px;
+	height: 25px;
+	background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+	vertical-align: text-top;
+	margin-left: -25px;
+}
+
+
 .block-title {
 	font: bold 16px/16px "Roboto Condensed",sans-serif;
 	padding-top: 11px;
@@ -342,4 +355,3 @@ footer svg {
   font-size: 26px;
   color: inherit;
 }
-
