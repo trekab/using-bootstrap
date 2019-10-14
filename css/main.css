@@ -50,7 +50,20 @@ p {
 	padding: 6px 12px;
 }
 
+.header-top__link1:hover {
+	text-decoration: none;
+	color: white;
+	font: bold 18px/18px "Roboto Condensed",sans-serif;
+	padding: 6px 12px;
+}
+
 .header-top__link2 {
+	color: #f72210;
+	background-color: white
+}
+
+.header-top__link2:hover {
+	text-decoration: none;
 	color: #f72210;
 	background-color: white
 }
