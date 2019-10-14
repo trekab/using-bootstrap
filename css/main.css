@@ -103,6 +103,7 @@ footer svg {
   width: 80px;
   font-size: 18px;
 }
+
 .top-search__icon {
   width: 25px;
   height: 25px;
@@ -330,8 +331,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 .footer-link {
   font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
