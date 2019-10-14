@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Genericons';
-  src: url('genericons-regular-webfont.eot');
+  src: url('font/genericons-regular-webfont.eot');
 }
 
 @font-face {
@@ -22,9 +22,6 @@
   font-weight: normal;
   font-style: normal;
   vertical-align: top;
-}
-
-.genericon {
   *overflow: auto;
   *zoom: 1;
   *display: inline;
@@ -248,10 +245,6 @@
 
 .genericon-menu::before {
   content: '\f419';
-}
-
-.genericon-top::before {
-  content: '\f420';
 }
 
 .genericon-minimize::before {
