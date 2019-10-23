@@ -1,11 +1,24 @@
-### Course: HTML & CSS3
-### Project: USING BOOTSTRAP
+# Project: USING BOOTSTRAP
+[View Demo](https://trekab.github.io/using-bootstrap/)
 
-### Contributors
+## Table of contents
+- About the Project
+- Getting Started
+- Contact
+
+## About the Project
+This project consists of replicating the [Newsweek](https://www.newsweek.com/) website putting emphasis on using the bootstrap framework as much as possible.
+
+### Built With
+- HTML
+- CSS
+- Bootstrap 4
+
+## Getting Started
+- Click 'clone or download' button.
+- Download zipped file.
+- Extract it on your local machine.
+- Double click the index.html file in the extracted folder to have it opened in your browser.
+
+## Contact
 * [Treasure Kabareebe](https://github.com/trekab)
-
-### Project Goal
-In this project I will build a replica of the news site Newsweek.com using the Bootstrap framework.
-
-### Link to the live demo
-https://trekab.github.io/using-bootstrap/
