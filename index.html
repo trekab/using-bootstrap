@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+      integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css?family=Delius&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Newsweek Clone</title>
+  </head>
+
+  <body>
+
+    <!-- NAVIGATION -->
+    <nav class="bg-white">
+      <div class="header-top d-flex justify-content-between align-items-center py-1 justify-content-md-between align-items-md-end pt-md-3 pb-md-3">
+        <p class="curr-date text-white d-none d-md-block m-0 ml-3">Wed, Oct 23, 2019</p>
+        <img src="images/newsweek.png" alt="logo">
+        <div class="d-flex align-items-center">
+          <a class="text-white font-weight-bold" href="#">SIGN IN</a>
+          <a class="btn bg-white text-danger font-weight-bold rounded-0 text-uppercase ml-2 mr-md-3"
+            href="#">SUBSCRIBE <i class='fas fa-angle-right'></i></a>
+          <a class="text-white h3 font-weight-bold rounded-0 text-uppercase ml-4 mr-3 d-md-none" href="#"><i
+              class="fas fa-bars pt-3 pt-md-0 d-md-none"></i></a>
+        </div>
+      </div>
+
+      <ul class="px-2 header-bottom__nav py-2 p-0 m-0 d-none d-lg-flex">
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">U.S.</a></li>
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">World</a></li>
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">Business</a></li>
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">Science</a></li>
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">Culture</a></li>
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">Sports</a></li>
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">Health</a></li>
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">Opinion</a></li>
+        <li><a class="header-bottom__text h5 font-weight-bold" href="#">Vintage</a></li>
+        <li>
+          <input class="header-bottom__search" type="search" name="search" placeholder="Search">
+            <span id="top-search">
+              <i class="fas fa-search"></i>
+            </span>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="container-fluid pt-3">
+
+      <!-- ARTICLES SECTION -->
+      <div class="row">
+        <!-- FEATURED STORY -->
+        <div class="col-12 col-md-5 col-lg order-1 order-md-0">
+
+          <h5 class="h6 capitalize font-weight-bold">Featured Stories</h5>
+
+          <div class="card border-0 my-2">
+            <a class="badge-relative" href="#">
+              <img
+                src="https://d.newsweek.com/en/full/1538287/syria-camp-war-conflict-displaced-children.webp?w=397&h=265&q=90&f=e92b2a7d9cae9d5e9379ecf4326a4f4a"
+                class="card-img-top rounded-0" alt="image">
+              <span class="badge-text">WORLD</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Life Inside One of Syria's Most Notorious Camps Seen in 10 Photos
+                </a>
+              </h3>
+              <p class="card-text card-text-custom">
+                Danish freelance journalist Thea Pedersen told Newsweek she was the first journalist to access the heavily-restricted site since the Turkish-led operation and described the atmosphere as "tense."
+              </p>
+            </div>
+          </div>
+
+          <div class="card border-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538647/justin-trudeau.webp?w=397&h=265&q=90&f=1353520f48e4c1e1a9e97f962e1ff2a3"
+                class="card-img-top rounded-0" alt="image">
+              <span class="badge-text">WORLD</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Justin Trudeau Wins Canadian Election, Loses Absolute Majority
+                </a>
+              </h3>
+              <p class="card-text card-text-custom">
+                President Donald Trump congratulated Prime Minister Justin Trudeau on his narrow re-election victory: "Canada is well served."
+              </p>
+            </div>
+          </div>
+
+          <div class="card border-0 my-2">
+            <a class="badge-relative" href="#">
+              <img
+                src="https://d.newsweek.com/en/full/1538363/catherine-great-helen-mirren.webp?w=397&h=265&l=50&t=37&q=90&f=ff304204a4674fe7187cc2062ab70c53"
+                class="card-img-top rounded-0" alt="image">
+              <span class="badge-text">CULTURE</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  'Catherine the Great': Helen Mirren on the Character's 'Sexual Liberation'
+                </a>
+              </h3>
+              <p class="card-text card-text-custom">
+                "Catherine the Great" is now airing on HBO with Helen Mirren playing the Russian queen. The actress spoke to Newsweek about how she got into the character and her surprise at the monarch's attitude towards sex.
+              </p>
+            </div>
+          </div>
+
+          <div class="card border-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1536550/best-customer-service-2020.webp?w=397&h=265&q=90&f=bc42d841c5c5ea9117b100b8a70b5410"
+                class="card-img-top rounded-0" alt="image">
+              <span class="badge-text">SURVEY</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Best Customer Service 2020
+                </a>
+              </h3>
+              <p class="card-text card-text-custom">
+                For the second year in a row, we worked with Statista to collect and analyze data across 160 retail categories.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOP STORY -->
+        <div class="col-12 col-md-7 col-lg-5 order-0 order-md-1">
+
+          <!-- TOP STORY -->
+          <section>
+
+            <h5 class="h6 capitalize font-weight-bold">Top Story</h5>
+
+            <div class="card border-0 my-2">
+              <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538915/bill-taylor.jpg?w=591&h=364&f=5f56db12bcf50ce1fd7d6681d250a874"
+                class="card-img-top rounded-0" alt="bill-taylor">
+                <span class="badge-text">U.S.</span></a>
+              <div class="card-body p-0 my-2">
+                <h3 class="card-title mb-2 mb-2">
+                  <a href="#">
+                    Lawmaker Calls Ukraine Envoy's Testimony His 'Most Disturbing Day' in Congress
+                  </a>
+                </h3>
+                <p class="card-text card-text-custom">
+                  "Very troubling," Representative Adam Levin told reporters outside the closed-door session.
+                </p>
+              </div>
+            </div>
+
+          </section>
+
+          <!-- MORE STORIES -->
+          <section>
+            <h5 class="h6 capitalize font-weight-bold mt-3">More Stories</h5>
+
+            <div class="card border-left-0 border-right-0 border-bottom-0 pt-3 mt-3 rounded-0">
+              <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-sm-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1538803/syria-war-zone-assad-idlib.webp?w=135&h=90&f=19a2422bb9de3594fc962ae43eccb3c5"
+                    class="card-img rounded-0" alt="syria-war-zone-assad-idlib">
+                </div>
+                <div class="col-6 col-md-9 col-sm-8 pl-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a href="#">
+                        Syria's Assad Visits War Zone, Will 'Support Any Group That Resists' Turkey
+                      </a>
+                    </h4>
+                    <p class="card-text card-text-custom">
+                      Syrian President Bashar al-Assad said allying with Kurdish-led forces was "a constitutional duty" and "a national duty."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-bottom-0 pt-3 mt-3 rounded-0">
+              <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-sm-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1538803/syria-war-zone-assad-idlib.webp?w=135&h=90&f=19a2422bb9de3594fc962ae43eccb3c5"
+                    class="card-img rounded-0" alt="syria-war-zone-assad-idlib">
+                </div>
+                <div class="col-6 col-md-9 col-sm-8 pl-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a href="#">
+                        Syria's Assad Visits War Zone, Will 'Support Any Group That Resists' Turkey
+                      </a>
+                    </h4>
+                    <p class="card-text card-text-custom">
+                      Syrian President Bashar al-Assad said allying with Kurdish-led forces was "a constitutional duty" and "a national duty."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-bottom-0 pt-3 mt-3 rounded-0">
+              <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-sm-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1538803/syria-war-zone-assad-idlib.webp?w=135&h=90&f=19a2422bb9de3594fc962ae43eccb3c5"
+                    class="card-img rounded-0" alt="syria-war-zone-assad-idlib">
+                </div>
+                <div class="col-6 col-md-9 col-sm-8 pl-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a href="#">
+                        Syria's Assad Visits War Zone, Will 'Support Any Group That Resists' Turkey
+                      </a>
+                    </h4>
+                    <p class="card-text card-text-custom">
+                      Syrian President Bashar al-Assad said allying with Kurdish-led forces was "a constitutional duty" and "a national duty."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-bottom-0 pt-3 mt-3 rounded-0">
+              <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-sm-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1538803/syria-war-zone-assad-idlib.webp?w=135&h=90&f=19a2422bb9de3594fc962ae43eccb3c5"
+                    class="card-img rounded-0" alt="syria-war-zone-assad-idlib">
+                </div>
+                <div class="col-6 col-md-9 col-sm-8 pl-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a href="#">
+                        Syria's Assad Visits War Zone, Will 'Support Any Group That Resists' Turkey
+                      </a>
+                    </h4>
+                    <p class="card-text card-text-custom">
+                      Syrian President Bashar al-Assad said allying with Kurdish-led forces was "a constitutional duty" and "a national duty."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-bottom-0 pt-3 mt-3 rounded-0">
+              <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-sm-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1538803/syria-war-zone-assad-idlib.webp?w=135&h=90&f=19a2422bb9de3594fc962ae43eccb3c5"
+                    class="card-img rounded-0" alt="syria-war-zone-assad-idlib">
+                </div>
+                <div class="col-6 col-md-9 col-sm-8 pl-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a href="#">
+                        Syria's Assad Visits War Zone, Will 'Support Any Group That Resists' Turkey
+                      </a>
+                    </h4>
+                    <p class="card-text card-text-custom">
+                      Syrian President Bashar al-Assad said allying with Kurdish-led forces was "a constitutional duty" and "a national duty."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-bottom-0 pt-3 mt-3 rounded-0">
+              <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-sm-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1538803/syria-war-zone-assad-idlib.webp?w=135&h=90&f=19a2422bb9de3594fc962ae43eccb3c5"
+                    class="card-img rounded-0" alt="syria-war-zone-assad-idlib">
+                </div>
+                <div class="col-6 col-md-9 col-sm-8 pl-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a href="#">
+                        Syria's Assad Visits War Zone, Will 'Support Any Group That Resists' Turkey
+                      </a>
+                    </h4>
+                    <p class="card-text card-text-custom">
+                      Syrian President Bashar al-Assad said allying with Kurdish-led forces was "a constitutional duty" and "a national duty."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-bottom-0 pt-3 mt-3 rounded-0">
+              <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-sm-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1538803/syria-war-zone-assad-idlib.webp?w=135&h=90&f=19a2422bb9de3594fc962ae43eccb3c5"
+                    class="card-img rounded-0" alt="syria-war-zone-assad-idlib">
+                </div>
+                <div class="col-6 col-md-9 col-sm-8 pl-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a href="#">
+                        Syria's Assad Visits War Zone, Will 'Support Any Group That Resists' Turkey
+                      </a>
+                    </h4>
+                    <p class="card-text card-text-custom">
+                      Syrian President Bashar al-Assad said allying with Kurdish-led forces was "a constitutional duty" and "a national duty."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-bottom-0 pt-3 mt-3 rounded-0">
+              <div class="row no-gutters">
+                <div class="col-6 col-md-3 col-sm-4">
+                  <img
+                    src="https://d.newsweek.com/en/full/1538803/syria-war-zone-assad-idlib.webp?w=135&h=90&f=19a2422bb9de3594fc962ae43eccb3c5"
+                    class="card-img rounded-0" alt="syria-war-zone-assad-idlib">
+                </div>
+                <div class="col-6 col-md-9 col-sm-8 pl-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a href="#">
+                        Syria's Assad Visits War Zone, Will 'Support Any Group That Resists' Turkey
+                      </a>
+                    </h4>
+                    <p class="card-text card-text-custom">
+                      Syrian President Bashar al-Assad said allying with Kurdish-led forces was "a constitutional duty" and "a national duty."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+        </div>
+
+        <!-- OPINION -->
+        <div class="col-12 col-lg order-2 order-md-2">
+
+          <section>
+
+            <h5 class="h6 capitalize font-weight-bold">Opinion</h5>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 mb-3 pb-3">
+              <div class="d-flex align-items-center">
+                <img
+                  src="https://d.newsweek.com/en/full/89510/marc-schulman.webp?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"
+                  class="card-img card-img-custom" alt="More stories">
+                <div class="card-body p-0 ml-2">
+                  <h4 class="card-title mb-1">
+                    <a class="card-link-custom" href="#">
+                      Trump's Abandonment of the Kurds Gives Israelis Pause
+                    </a>
+                  </h4>
+                  <p class="card-text card-text-custom-bold">BY MARC SCHULMAN</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 mb-3 pb-3">
+              <div class="d-flex align-items-center">
+                <img
+                  src="https://d.newsweek.com/en/full/89510/marc-schulman.webp?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"
+                  class="card-img card-img-custom" alt="More stories">
+                <div class="card-body p-0 ml-2">
+                  <h4 class="card-title mb-1">
+                    <a class="card-link-custom" href="#">
+                      Trump's Abandonment of the Kurds Gives Israelis Pause
+                    </a>
+                  </h4>
+                  <p class="card-text card-text-custom-bold">BY MARC SCHULMAN</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 mb-3 pb-3">
+              <div class="d-flex align-items-center">
+                <img
+                  src="https://d.newsweek.com/en/full/89510/marc-schulman.webp?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"
+                  class="card-img card-img-custom" alt="More stories">
+                <div class="card-body p-0 ml-2">
+                  <h4 class="card-title mb-1">
+                    <a class="card-link-custom" href="#">
+                      Trump's Abandonment of the Kurds Gives Israelis Pause
+                    </a>
+                  </h4>
+                  <p class="card-text card-text-custom-bold">BY MARC SCHULMAN</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 mb-3 pb-3">
+              <div class="d-flex align-items-center">
+                <img
+                  src="https://d.newsweek.com/en/full/89510/marc-schulman.webp?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"
+                  class="card-img card-img-custom" alt="More stories">
+                <div class="card-body p-0 ml-2">
+                  <h4 class="card-title mb-1">
+                    <a class="card-link-custom" href="#">
+                      Trump's Abandonment of the Kurds Gives Israelis Pause
+                    </a>
+                  </h4>
+                  <p class="card-text card-text-custom-bold">BY MARC SCHULMAN</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 mb-3 pb-3">
+              <div class="d-flex align-items-center">
+                <img
+                  src="https://d.newsweek.com/en/full/89510/marc-schulman.webp?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"
+                  class="card-img card-img-custom" alt="More stories">
+                <div class="card-body p-0 ml-2">
+                  <h4 class="card-title mb-1">
+                    <a class="card-link-custom" href="#">
+                      Trump's Abandonment of the Kurds Gives Israelis Pause
+                    </a>
+                  </h4>
+                  <p class="card-text card-text-custom-bold">BY MARC SCHULMAN</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 mb-3 pb-3">
+              <div class="d-flex align-items-center">
+                <img
+                  src="https://d.newsweek.com/en/full/89510/marc-schulman.webp?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"
+                  class="card-img card-img-custom" alt="More stories">
+                <div class="card-body p-0 ml-2">
+                  <h4 class="card-title mb-1">
+                    <a class="card-link-custom" href="#">
+                      Trump's Abandonment of the Kurds Gives Israelis Pause
+                    </a>
+                  </h4>
+                  <p class="card-text card-text-custom-bold">BY MARC SCHULMAN</p>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+          <section>
+            <h5 class="h6 capitalize font-weight-bold mb-3">Latest News</h5>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 pb-2 mb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm-6 col-md-3 col-lg-5 pr-3 pr-lg-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1539003/pat-robertson.webp?w=397&h=265&f=25699c7191f51ab0aaf7828b41585a2b"
+                    class="card-img rounded-0" alt="pat-robertson">
+                </div>
+                <div class="col-5 col-sm-6 col-md-9 col-lg-7">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                          Pat Robertson Claims Aborted Fetal Tissue Used to Create 'Human Mouse'
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 pb-2 mb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm-6 col-md-3 col-lg-5 pr-3 pr-lg-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1539003/pat-robertson.webp?w=397&h=265&f=25699c7191f51ab0aaf7828b41585a2b"
+                    class="card-img rounded-0" alt="pat-robertson">
+                </div>
+                <div class="col-5 col-sm-6 col-md-9 col-lg-7">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                          Pat Robertson Claims Aborted Fetal Tissue Used to Create 'Human Mouse'
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 pb-2 mb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm-6 col-md-3 col-lg-5 pr-3 pr-lg-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1539003/pat-robertson.webp?w=397&h=265&f=25699c7191f51ab0aaf7828b41585a2b"
+                    class="card-img rounded-0" alt="pat-robertson">
+                </div>
+                <div class="col-5 col-sm-6 col-md-9 col-lg-7">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                          Pat Robertson Claims Aborted Fetal Tissue Used to Create 'Human Mouse'
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 pb-2 mb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm-6 col-md-3 col-lg-5 pr-3 pr-lg-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1539003/pat-robertson.webp?w=397&h=265&f=25699c7191f51ab0aaf7828b41585a2b"
+                    class="card-img rounded-0" alt="pat-robertson">
+                </div>
+                <div class="col-5 col-sm-6 col-md-9 col-lg-7">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                          Pat Robertson Claims Aborted Fetal Tissue Used to Create 'Human Mouse'
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 pb-2 mb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm-6 col-md-3 col-lg-5 pr-3 pr-lg-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1539003/pat-robertson.webp?w=397&h=265&f=25699c7191f51ab0aaf7828b41585a2b"
+                    class="card-img rounded-0" alt="pat-robertson">
+                </div>
+                <div class="col-5 col-sm-6 col-md-9 col-lg-7">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                          Pat Robertson Claims Aborted Fetal Tissue Used to Create 'Human Mouse'
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 pb-2 mb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm-6 col-md-3 col-lg-5 pr-3 pr-lg-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1539003/pat-robertson.webp?w=397&h=265&f=25699c7191f51ab0aaf7828b41585a2b"
+                    class="card-img rounded-0" alt="pat-robertson">
+                </div>
+                <div class="col-5 col-sm-6 col-md-9 col-lg-7">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                          Pat Robertson Claims Aborted Fetal Tissue Used to Create 'Human Mouse'
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 pb-2 mb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm-6 col-md-3 col-lg-5 pr-3 pr-lg-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1539003/pat-robertson.webp?w=397&h=265&f=25699c7191f51ab0aaf7828b41585a2b"
+                    class="card-img rounded-0" alt="pat-robertson">
+                </div>
+                <div class="col-5 col-sm-6 col-md-9 col-lg-7">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                          Pat Robertson Claims Aborted Fetal Tissue Used to Create 'Human Mouse'
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 rounded-0 pb-2 mb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm-6 col-md-3 col-lg-5 pr-3 pr-lg-2">
+                  <img
+                    src="https://d.newsweek.com/en/full/1539003/pat-robertson.webp?w=397&h=265&f=25699c7191f51ab0aaf7828b41585a2b"
+                    class="card-img rounded-0" alt="pat-robertson">
+                </div>
+                <div class="col-5 col-sm-6 col-md-9 col-lg-7">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                          Pat Robertson Claims Aborted Fetal Tissue Used to Create 'Human Mouse'
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </section>
+
+
+        </div>
+
+      </div>
+
+      <!-- MAGAZINE SECTION -->
+      <!-- Features magazine -->
+      <section class="px-lg-3">
+
+        <div class="row">
+
+          <div class="col-12 col-md-3 card border-0 rounded-0 my-2">
+            <a href="#"><img
+                src="https://d.newsweek.com/en/full/1536427/october-25-2019.webp?w=290&h=387&q=90&f=438c9b4b127ebd742f1be117d60e83ad"
+                class="card-img-top rounded-0" alt="october-25-2019"></a>
+            <div class="card-body p-0 my-2">
+              <h4 class="header-custom h6 font-weight-bold mt-1"><span class="py-1 px-2 mr-2">COVER</span><a
+                  href="#">OCTOBER 25 ISSUE</a>
+              </h4>
+              <h3 class="card-title mb-2 text-center"><a class="h5 font-weight-bold" href="#">SEE
+                  ALL FEATURES <i class='fas fa-angle-right'></i></a></a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-9">
+            <div class="container-header pt-3">
+              <span class="newsweek-icon"></span>
+              <h2 class="h5 text-center font-weight-bold">IN THE MAGAZINE</h2>
+            </div>
+            <hr>
+
+            <div class="row">
+
+              <div class="col-12 col-md card border-0 rounded-0 my-2">
+                <a href="#"><img
+                    src="https://d.newsweek.com/en/full/1535155/fe-pence-1013892928-banner.webp?w=466&h=311&l=49&t=59&q=90&f=0a3d2612114e68778169c09770223ee0"
+                    class="card-img-top rounded-0" alt="image"></a>
+                <div class="card-body p-0 my-2">
+                  <h4 class="header-custom h6 font-weight-bold mt-1"><span class="py-1 px-2 mr-2">COVER</span><a
+                      href="#">Health</a>
+                  </h4>
+                  <h3 class="card-title mb-2">
+                    <a href="#">
+                      A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?
+                    </a>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-12 col-md card border-0 rounded-0 my-2">
+                <a href="#"><img
+                    src="https://d.newsweek.com/en/full/1535155/fe-pence-1013892928-banner.webp?w=466&h=311&l=49&t=59&q=90&f=0a3d2612114e68778169c09770223ee0"
+                    class="card-img-top rounded-0" alt="image"></a>
+                <div class="card-body p-0 my-2">
+                  <h4 class="header-custom h6 font-weight-bold mt-1"><span class="py-1 px-2 mr-2">COVER</span><a
+                      href="#">Health</a>
+                  </h4>
+                  <h3 class="card-title mb-2">
+                    <a href="#">
+                      A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?
+                    </a>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-12 col-md card border-0 rounded-0 my-2">
+                <a href="#"><img
+                    src="https://d.newsweek.com/en/full/1535155/fe-pence-1013892928-banner.webp?w=466&h=311&l=49&t=59&q=90&f=0a3d2612114e68778169c09770223ee0"
+                    class="card-img-top rounded-0" alt="image"></a>
+                <div class="card-body p-0 my-2">
+                  <h4 class="header-custom h6 font-weight-bold mt-1"><span class="py-1 px-2 mr-2">COVER</span><a
+                      href="#">Health</a>
+                  </h4>
+                  <h3 class="card-title mb-2">
+                    <a href="#">
+                      A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?
+                    </a>
+                  </h3>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 col-md card border-0 rounded-0 my-2">
+              <a href="#"><img
+                  src="https://d.newsweek.com/en/full/1535155/fe-pence-1013892928-banner.webp?w=466&h=311&l=49&t=59&q=90&f=0a3d2612114e68778169c09770223ee0"
+                  class="card-img-top rounded-0" alt="image"></a>
+              <div class="card-body p-0 my-2">
+                <h4 class="header-custom h6 font-weight-bold mt-1"><span class="py-1 px-2 mr-2">COVER</span><a
+                    href="#">Health</a>
+                </h4>
+                <h3 class="card-title mb-2">
+                  <a href="#">
+                    A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md card border-0 rounded-0 my-2">
+              <a href="#"><img
+                  src="https://d.newsweek.com/en/full/1535155/fe-pence-1013892928-banner.webp?w=466&h=311&l=49&t=59&q=90&f=0a3d2612114e68778169c09770223ee0"
+                  class="card-img-top rounded-0" alt="image"></a>
+              <div class="card-body p-0 my-2">
+                <h4 class="header-custom h6 font-weight-bold mt-1"><span class="py-1 px-2 mr-2">COVER</span><a
+                    href="#">Health</a>
+                </h4>
+                <h3 class="card-title mb-2">
+                  <a href="#">
+                    A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md card border-0 rounded-0 my-2">
+              <a href="#"><img
+                  src="https://d.newsweek.com/en/full/1535155/fe-pence-1013892928-banner.webp?w=466&h=311&l=49&t=59&q=90&f=0a3d2612114e68778169c09770223ee0"
+                  class="card-img-top rounded-0" alt="image"></a>
+              <div class="card-body p-0 my-2">
+                <h4 class="header-custom h6 font-weight-bold mt-1"><span class="py-1 px-2 mr-2">COVER</span><a
+                    href="#">Health</a>
+                </h4>
+                <h3 class="card-title mb-2">
+                  <a href="#">
+                    A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md card border-0 rounded-0 my-2">
+              <a href="#"><img
+                  src="https://d.newsweek.com/en/full/1535155/fe-pence-1013892928-banner.webp?w=466&h=311&l=49&t=59&q=90&f=0a3d2612114e68778169c09770223ee0"
+                  class="card-img-top rounded-0" alt="image"></a>
+              <div class="card-body p-0 my-2">
+                <h4 class="header-custom h6 font-weight-bold mt-1"><span class="py-1 px-2 mr-2">COVER</span><a
+                    href="#">Health</a>
+                </h4>
+                <h3 class="card-title mb-2">
+                  <a href="#">
+                    A Pence Presidency Is No Longer Just Dinner Party Chatter—Is He Up to It?
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+        </div>
+
+
+      </section>
+
+      <!-- EDITORS SECTION -->
+      <section class="px-lg-3">
+
+        <div class="container-header pt-3">
+          <span class="newsweek-icon"></span>
+          <h2 class="h5 text-center font-weight-bold">EDITOR'S PICK</h2>
+        </div>
+        <hr>
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-3 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538440/alexandria-ocasio-cortez-endorses-bernie-sanders-rally.webp?w=397&h=265&f=cdb17477a175dd451495752eb3387249"
+                class="card-img-top rounded-0" alt="alexandria-ocasio-cortez-endorses-bernie-sanders-rally">
+              <span class="badge-text">ANALYSIS</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Do Political Endorsements Really Matter? Not Really
+                </a>
+              </h3>
+              <p class="text-muted">
+                One of the most coveted Democratic endorsements of 2020—that of freshman Congresswoman Alexandria Ocasio-Cortez—was handed out to Senator Bernie Sanders. But does it matter?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538440/alexandria-ocasio-cortez-endorses-bernie-sanders-rally.webp?w=397&h=265&f=cdb17477a175dd451495752eb3387249"
+                class="card-img-top rounded-0" alt="alexandria-ocasio-cortez-endorses-bernie-sanders-rally">
+              <span class="badge-text">ANALYSIS</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Do Political Endorsements Really Matter? Not Really
+                </a>
+              </h3>
+              <p class="text-muted">
+                One of the most coveted Democratic endorsements of 2020—that of freshman Congresswoman Alexandria Ocasio-Cortez—was handed out to Senator Bernie Sanders. But does it matter?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538440/alexandria-ocasio-cortez-endorses-bernie-sanders-rally.webp?w=397&h=265&f=cdb17477a175dd451495752eb3387249"
+                class="card-img-top rounded-0" alt="alexandria-ocasio-cortez-endorses-bernie-sanders-rally">
+              <span class="badge-text">ANALYSIS</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Do Political Endorsements Really Matter? Not Really
+                </a>
+              </h3>
+              <p class="text-muted">
+                One of the most coveted Democratic endorsements of 2020—that of freshman Congresswoman Alexandria Ocasio-Cortez—was handed out to Senator Bernie Sanders. But does it matter?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538440/alexandria-ocasio-cortez-endorses-bernie-sanders-rally.webp?w=397&h=265&f=cdb17477a175dd451495752eb3387249"
+                class="card-img-top rounded-0" alt="alexandria-ocasio-cortez-endorses-bernie-sanders-rally">
+              <span class="badge-text">ANALYSIS</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Do Political Endorsements Really Matter? Not Really
+                </a>
+              </h3>
+              <p class="text-muted">
+                One of the most coveted Democratic endorsements of 2020—that of freshman Congresswoman Alexandria Ocasio-Cortez—was handed out to Senator Bernie Sanders. But does it matter?
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-12 col-md-6 col-lg-3 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538440/alexandria-ocasio-cortez-endorses-bernie-sanders-rally.webp?w=397&h=265&f=cdb17477a175dd451495752eb3387249"
+                class="card-img-top rounded-0" alt="alexandria-ocasio-cortez-endorses-bernie-sanders-rally">
+              <span class="badge-text">ANALYSIS</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Do Political Endorsements Really Matter? Not Really
+                </a>
+              </h3>
+              <p class="text-muted">
+                One of the most coveted Democratic endorsements of 2020—that of freshman Congresswoman Alexandria Ocasio-Cortez—was handed out to Senator Bernie Sanders. But does it matter?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538440/alexandria-ocasio-cortez-endorses-bernie-sanders-rally.webp?w=397&h=265&f=cdb17477a175dd451495752eb3387249"
+                class="card-img-top rounded-0" alt="alexandria-ocasio-cortez-endorses-bernie-sanders-rally">
+              <span class="badge-text">ANALYSIS</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Do Political Endorsements Really Matter? Not Really
+                </a>
+              </h3>
+              <p class="text-muted">
+                One of the most coveted Democratic endorsements of 2020—that of freshman Congresswoman Alexandria Ocasio-Cortez—was handed out to Senator Bernie Sanders. But does it matter?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538440/alexandria-ocasio-cortez-endorses-bernie-sanders-rally.webp?w=397&h=265&f=cdb17477a175dd451495752eb3387249"
+                class="card-img-top rounded-0" alt="alexandria-ocasio-cortez-endorses-bernie-sanders-rally">
+              <span class="badge-text">ANALYSIS</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Do Political Endorsements Really Matter? Not Really
+                </a>
+              </h3>
+              <p class="text-muted">
+                One of the most coveted Democratic endorsements of 2020—that of freshman Congresswoman Alexandria Ocasio-Cortez—was handed out to Senator Bernie Sanders. But does it matter?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-3 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538440/alexandria-ocasio-cortez-endorses-bernie-sanders-rally.webp?w=397&h=265&f=cdb17477a175dd451495752eb3387249"
+                class="card-img-top rounded-0" alt="alexandria-ocasio-cortez-endorses-bernie-sanders-rally">
+              <span class="badge-text">ANALYSIS</span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Do Political Endorsements Really Matter? Not Really
+                </a>
+              </h3>
+              <p class="text-muted">
+                One of the most coveted Democratic endorsements of 2020—that of freshman Congresswoman Alexandria Ocasio-Cortez—was handed out to Senator Bernie Sanders. But does it matter?
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- FEATURED SLIDESHOWS -->
+      <section class="px-lg-3">
+
+        <div class="container-header pt-3">
+          <span class="newsweek-icon"></span>
+          <h2 class="h5 text-center font-weight-bold">FEATURED SLIDESHOWS</h2>
+        </div>
+        <hr>
+        <div class="row">
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1521293/still-2-eop.webp?w=397&h=265&f=c18000449d44d36619eba01997038aec"
+                class="card-img-top rounded-0" alt="feature slide shows">
+              <span class="badge-text--icon"></span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  The New Documentary Trying to Save the Most Trafficked Mammals in the World
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1521293/still-2-eop.webp?w=397&h=265&f=c18000449d44d36619eba01997038aec"
+                class="card-img-top rounded-0" alt="feature slide shows">
+              <span class="badge-text--icon"></span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  The New Documentary Trying to Save the Most Trafficked Mammals in the World
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1521293/still-2-eop.webp?w=397&h=265&f=c18000449d44d36619eba01997038aec"
+                class="card-img-top rounded-0" alt="feature slide shows">
+              <span class="badge-text--icon"></span></a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  The New Documentary Trying to Save the Most Trafficked Mammals in the World
+                </a>
+              </h3>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+              <a class="badge-relative" href="#"><img
+                  src="https://d.newsweek.com/en/full/1521293/still-2-eop.webp?w=397&h=265&f=c18000449d44d36619eba01997038aec"
+                  class="card-img-top rounded-0" alt="feature slide shows">
+                <span class="badge-text--icon"></span></a>
+              <div class="card-body p-0 my-2">
+                <h3 class="card-title mb-2">
+                  <a href="#">
+                    The New Documentary Trying to Save the Most Trafficked Mammals in the World
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+              <a class="badge-relative" href="#"><img
+                  src="https://d.newsweek.com/en/full/1521293/still-2-eop.webp?w=397&h=265&f=c18000449d44d36619eba01997038aec"
+                  class="card-img-top rounded-0" alt="feature slide shows">
+                <span class="badge-text--icon"></span></a>
+              <div class="card-body p-0 my-2">
+                <h3 class="card-title mb-2">
+                  <a href="#">
+                    The New Documentary Trying to Save the Most Trafficked Mammals in the World
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+              <a class="badge-relative" href="#"><img
+                  src="https://d.newsweek.com/en/full/1521293/still-2-eop.webp?w=397&h=265&f=c18000449d44d36619eba01997038aec"
+                  class="card-img-top rounded-0" alt="feature slide shows">
+                <span class="badge-text--icon"></span></a>
+              <div class="card-body p-0 my-2">
+                <h3 class="card-title mb-2">
+                  <a href="#">
+                    The New Documentary Trying to Save the Most Trafficked Mammals in the World
+                  </a>
+                </h3>
+              </div>
+            </div>
+
+        </div>
+        <hr>
+      </section>
+
+      <!-- SECTION US -->
+      <section class="px-lg-3">
+        <h2 class="section-header pt-3 h5 text-left font-weight-bold"><a href="#">U.S</a></h2>
+
+        <div class="row">
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538974/real-estate-investment.webp?w=397&h=265&f=6370635302998e5ffb807e3e273d4988"
+                class="card-img-top rounded-0" alt="real-estate-investment">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Ringleader of Ponzi Scheme Sentenced to 25 Years in Prison
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538974/real-estate-investment.webp?w=397&h=265&f=6370635302998e5ffb807e3e273d4988"
+                class="card-img-top rounded-0" alt="real-estate-investment">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Ringleader of Ponzi Scheme Sentenced to 25 Years in Prison
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538946/lori-loughlin-additional-charges-college-admission-scandal.webp?w=135&h=90&f=634d9904adb61c0235efc87f468ee953"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="ori-loughlin-additional-charge"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        Lori Loughlin Hit With New Charges in College Admission Scandal
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538946/lori-loughlin-additional-charges-college-admission-scandal.webp?w=135&h=90&f=634d9904adb61c0235efc87f468ee953"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="ori-loughlin-additional-charge"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        Lori Loughlin Hit With New Charges in College Admission Scandal
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538946/lori-loughlin-additional-charges-college-admission-scandal.webp?w=135&h=90&f=634d9904adb61c0235efc87f468ee953"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="ori-loughlin-additional-charge"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        Lori Loughlin Hit With New Charges in College Admission Scandal
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+      </section>
+
+      <!-- SECTION WORLD -->
+      <section class="px-lg-3">
+        <h2 class="section-header pt-3 h5 text-left font-weight-bold"><a href="#">World</a></h2>
+
+        <div class="row">
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538924/russia-putin-turkey-erdogan-sochi-syr.webp?w=397&h=265&f=0429fd436c855f21353c3cb39254fd33"
+                class="card-img-top rounded-0" alt="russia-putin-turkey-erdogan">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Russia and Turkey Present New Syria Deal After Six-Hours Talks, U.S. Exit
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538924/russia-putin-turkey-erdogan-sochi-syr.webp?w=397&h=265&f=0429fd436c855f21353c3cb39254fd33"
+                class="card-img-top rounded-0" alt="russia-putin-turkey-erdogan">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Russia and Turkey Present New Syria Deal After Six-Hours Talks, U.S. Exit
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538792/hornets-file-image.webp?w=135&h=90&f=e13e314867bee456f47ec566d5d87193"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="hornets-file"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        Man Dies After Being Attacked by Swarm of Wasps
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538792/hornets-file-image.webp?w=135&h=90&f=e13e314867bee456f47ec566d5d87193"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="hornets-file"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        Man Dies After Being Attacked by Swarm of Wasps
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538792/hornets-file-image.webp?w=135&h=90&f=e13e314867bee456f47ec566d5d87193"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="hornets-file"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        Man Dies After Being Attacked by Swarm of Wasps
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+      </section>
+
+      <!-- SECTION BUSINESS -->
+      <section class="px-lg-3">
+        <h2 class="section-header pt-3 h5 text-left font-weight-bold"><a href="#">Business</a></h2>
+
+        <div class="row">
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538955/pizza-hut.webp?w=397&h=265&f=23b7ce1773549c721fe5881ac2f7bff1"
+                class="card-img-top rounded-0" alt="pizza-hut">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Pizza Hut Goes Green With 'Incogmeato' Sausage, Eco-Friendly Box
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538955/pizza-hut.webp?w=397&h=265&f=23b7ce1773549c721fe5881ac2f7bff1"
+                class="card-img-top rounded-0" alt="pizza-hut">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Pizza Hut Goes Green With 'Incogmeato' Sausage, Eco-Friendly Box
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538120/wing-drone.webp?w=135&h=90&f=29330232b3b0605f0ec86696025f9303"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="wing-drone"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title"><a class="card-link-custom" href="#">
+                      Alphabet's Wing Announces First Commercial Drone Delivery in U.S.
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538120/wing-drone.webp?w=135&h=90&f=29330232b3b0605f0ec86696025f9303"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="wing-drone"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title"><a class="card-link-custom" href="#">
+                      Alphabet's Wing Announces First Commercial Drone Delivery in U.S.
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538120/wing-drone.webp?w=135&h=90&f=29330232b3b0605f0ec86696025f9303"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="wing-drone"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title"><a class="card-link-custom" href="#">
+                      Alphabet's Wing Announces First Commercial Drone Delivery in U.S.
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+      </section>
+
+      <!-- SECTION TECH -->
+      <section class="px-lg-3">
+        <h2 class="section-header pt-3 h5 text-left font-weight-bold"><a href="#">Tech & Science</a></h2>
+
+        <div class="row">
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538833/great-white-shark.webp?w=397&h=265&f=50b5c1259026f7da11fbee84012018ed"
+                class="card-img-top rounded-0" alt="great-white-shark">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Great White Sharks Like to Hang Out With Each Other When Feasting on Seals
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538833/great-white-shark.webp?w=397&h=265&f=50b5c1259026f7da11fbee84012018ed"
+                class="card-img-top rounded-0" alt="great-white-shark">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Great White Sharks Like to Hang Out With Each Other When Feasting on Seals
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538779/ancient-greek.webp?w=135&h=90&f=6608a770cca719c29e1e999f7c66e061"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="ancient-greek"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title"><a class="card-link-custom" href="#">
+                      AI Has Learned to Decipher Damaged Ancient Greek Texts Better Than Humans
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538779/ancient-greek.webp?w=135&h=90&f=6608a770cca719c29e1e999f7c66e061"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="ancient-greek"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title"><a class="card-link-custom" href="#">
+                      AI Has Learned to Decipher Damaged Ancient Greek Texts Better Than Humans
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538779/ancient-greek.webp?w=135&h=90&f=6608a770cca719c29e1e999f7c66e061"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="ancient-greek"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title"><a class="card-link-custom" href="#">
+                      AI Has Learned to Decipher Damaged Ancient Greek Texts Better Than Humans
+                    </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+      </section>
+
+      <!-- SECTION CULTURE -->
+      <section class="px-lg-3">
+        <h2 class="section-header pt-3 h5 text-left font-weight-bold"><a href="#">Culture</a></h2>
+
+        <div class="row">
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1535982/all-contestants-facing-off-first-battle-round-voice.webp?w=397&h=265&f=362f778bfcd1eecd482744b571ca9cf2"
+                class="card-img-top rounded-0" alt="The Voice">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  'The Voice' Season 17, Episode 10 Battles Recap
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1535982/all-contestants-facing-off-first-battle-round-voice.webp?w=397&h=265&f=362f778bfcd1eecd482744b571ca9cf2"
+                class="card-img-top rounded-0" alt="The Voice">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  'The Voice' Season 17, Episode 10 Battles Recap
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538921/minaj-petty.webp?w=135&h=90&f=c44c7b78e0f1a8918b92df40ef62b653"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="minaj-petty"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        5 Fast Facts About Nicki Minaj's New Husband, Kenneth Petty
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538921/minaj-petty.webp?w=135&h=90&f=c44c7b78e0f1a8918b92df40ef62b653"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="minaj-petty"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        5 Fast Facts About Nicki Minaj's New Husband, Kenneth Petty
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538921/minaj-petty.webp?w=135&h=90&f=c44c7b78e0f1a8918b92df40ef62b653"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="minaj-petty"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        5 Fast Facts About Nicki Minaj's New Husband, Kenneth Petty
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+      </section>
+
+      <!-- SECTION SPORTS -->
+      <section class="px-lg-3">
+        <h2 class="section-header pt-3 h5 text-left font-weight-bold"><a href="#">Sports</a></h2>
+
+        <div class="row">
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538940/butler-blue-iii.webp?w=397&h=265&f=ce081edbb417ae3941b9b1a24b2b6260"
+                class="card-img-top rounded-0" alt="butler-blue">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Butler University Announced Their Live Mascot Will Retire
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+            <a class="badge-relative" href="#"><img
+                src="https://d.newsweek.com/en/full/1538940/butler-blue-iii.webp?w=397&h=265&f=ce081edbb417ae3941b9b1a24b2b6260"
+                class="card-img-top rounded-0" alt="butler-blue">
+            </a>
+            <div class="card-body p-0 my-2">
+              <h3 class="card-title mb-2">
+                <a href="#">
+                  Butler University Announced Their Live Mascot Will Retire
+                </a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 card border-0 rounded-0 my-2">
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538673/gerrit-cole-houston-astros.webp?w=135&h=90&f=c2108e33f4f4b19deeff22c076741930"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="gerrit-cole-houston"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        World Series: Where to Watch Nationals vs Astros Game 1
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538673/gerrit-cole-houston-astros.webp?w=135&h=90&f=c2108e33f4f4b19deeff22c076741930"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="gerrit-cole-houston"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        World Series: Where to Watch Nationals vs Astros Game 1
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-left-0 border-right-0 border-top-0 border-bottom-1 rounded-0 pb-2 mb-2">
+              <div class="row no-gutters">
+                <div class="col-7 col-sm col-lg-4">
+                  <a href="#"><img
+                      src="https://d.newsweek.com/en/full/1538673/gerrit-cole-houston-astros.webp?w=135&h=90&f=c2108e33f4f4b19deeff22c076741930"
+                      class="card-img rounded-0 pr-3 pr-sm-0" alt="gerrit-cole-houston"></a>
+                </div>
+                <div class="col col-sm-8 col-lg-8 pl-sm-3">
+                  <div class="card-body p-0">
+                    <h4 class="card-title">
+                      <a class="card-link-custom" href="#">
+                        World Series: Where to Watch Nationals vs Astros Game 1
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+      </section>
+
+      <!-- SUBSCRIBE SECTION -->
+      <section class="px-lg-3">
+
+        <div class="row py-3">
+
+          <div class="col-12 col-lg-8">
+            <div class="h-100">
+              <h2 class="section-header h6 text-left font-weight-bold">SUBSCRIBE</h2>
+              <div class="card rounded-0 px-0 bg-light border-0">
+                <div class="row no-gutters">
+                  <div class="col-12 col-md-3 pt-5 pt-md-0 text-center thumbnail-height">
+                    <img
+                      src="https://d.newsweek.com/en/full/1536427/october-25-2019.webp?w=290&h=387&q=90&f=438c9b4b127ebd742f1be117d60e83ad"
+                      class="img-fluid img__height m-0" alt="image">
+                  </div>
+                  <div
+                    class="col-12 col-md-9 p-5 p-md-0 card-block px-2 d-flex flex-column justify-content-center align-items-center align-items-md-start text-center text-md-left px-md-4">
+                    <h4 class="card-title h4 font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics
+                      You
+                      Want to Read!
+                    </h4>
+                    <p class="text-muted font-weight-light">All Access + Weekly Delivery.
+                      Choose A Membership That's Perfect for You!</p>
+                    <a href="#"
+											class="btn btn-danger btn-custom color-white font-weight-bold rounded-0 text-uppercase">
+											SUBSCRIBE <i class='fas fa-angle-right'></i>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 mt-4 mt-md-0">
+            <div class="h-100">
+              <h2 class="section-header h6 text-left font-weight-bold">NEWSLETTER</h2>
+              <div class="card rounded-0 px-0 text-center">
+                <div class="row no-gutters">
+                  <div class="col-4 col-sm-5 col-md-4 col-lg-6">
+                    <img src="https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif"
+                      class="img-fluid img__height m-0" alt="image">
+                  </div>
+                  <div
+                    class="col-8 col-sm-7 col-md-8 col-lg-6 p-3 d-flex flex-column justify-content-center align-items-md-start text-center text-md-left px-md-4">
+                    <div class="card-block px-2">
+                      <h4 class="card-title h4 font-weight-bold">Daily Briefing
+                      </h4>
+                      <p class="text-muted font-weight-light">Take back your inbox. Sign up for our newsletter and start
+                        making sense of the world around you</p>
+                      <a href="#"
+												class="btn btn-danger btn-custom color-white font-weight-bold rounded-0 text-uppercase">
+												SIGN UP <i class='fas fa-angle-right'></i>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <hr>
+
+      </section>
+
+      <!-- FOOTER SECTION -->
+      <footer class="container-fluid pb-5">
+
+        <div class="footer__header d-flex flex-column ml-0 flex-md-row justify-content-md-between">
+          <div class="logo d-flex flex-column flex-md-row align-items-md-end">
+            <img src="images/transparent.png" alt="logo">
+            <span class="text-muted pl-3 pl-md-0 small">© 2019 NEWSWEEK</span>
+          </div>
+          <nav class="nav align-self-md-end border-0">
+            <a class="nav-link text-muted p-0 ml-3 h4" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="nav-link text-muted p-0 ml-3 h4" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="nav-link text-muted p-0 ml-3 h4" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="nav-link text-muted p-0 ml-3 h4" href="#"><i class="fab fa-linkedin"></i></a>
+            <a class="nav-link text-muted p-0 ml-3 h4" href="#"><i class="fab fa-youtube"></i></a>
+          </nav>
+        </div>
+
+        <hr>
+
+        <div class="d-md-flex">
+          <nav class="nav pr-md-8">
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">About Us</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Corrections</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Contact Us</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Editorial Guidelines</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Advertise</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Copyright</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Terms & Conditions</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Privacy Policy</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Cookie Policy</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Terms of Sale</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Archive</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Announcements</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1 my-md-0" href="#">Consent preferences</a>
+          </nav>
+
+          <nav class="nav mt-2 pl-1 mt-md-0">
+            <p class="font-weight-bold text-muted pt-1 pt-md-0">Editions:</p>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1" href="#">U.S. Edition</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1" href="#">日本</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1" href="#">한국</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1" href="#">Pakistan</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1" href="#">Polska</a>
+            <a class="nav-link text-muted p-1 p-md-0 mx-1" href="#">România</a>
+          </nav>
+        </div>
+
+      </footer>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>
