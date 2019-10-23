@@ -13,18 +13,18 @@ footer {
 h3 {
   font-size: 1.4rem;
   font-weight: bold;
-  line-height: 1.3
+  line-height: 1.3;
 }
 
-h3>a,
-h4>a {
+h3 > a,
+h4 > a {
   color: black;
 }
 
-h3>a:hover,
-h3>a:active,
+h3 > a:hover,
+h3 > a:active,
 h4>a:hover,
-h4>a:active {
+h4 > a:active {
   color: black;
   text-decoration: none;
   border-bottom: 2px solid #f72210
@@ -33,13 +33,13 @@ h4>a:active {
 .card-link-custom:hover,
 .card-link-custom:active {
   color: #f72210;
-  border: none
+  border: none;
 }
 
 h4 {
   font-size: 1.1rem;
   font-weight: bold;
-  line-height: 1.2
+  line-height: 1.2;
 }
 
 .card-text-custom-bold {
@@ -118,15 +118,19 @@ h4 {
   width: 30%;
 }
 
+#top-search {
+  margin-left: -1rem;
+ }
+
 .btn-custom {
   background-color: #f72210;
 }
 
-.card-img-nv {
+.img__height {
   height: 100%;
 }
 
-.img-thumb-height {
+.thumbnail-height {
   height: 275px;
 }
 
@@ -173,10 +177,6 @@ nav {
   width: 5rem;
   border: none;
   font-size: 1.2rem;
-}
-
-.nw-search span {
-  margin-left: -1rem;
 }
 
 .footer__header img {
