@@ -21,15 +21,6 @@ h4 > a {
   color: black;
 }
 
-h3 > a:hover,
-h3 > a:active,
-h4>a:hover,
-h4 > a:active {
-  color: black;
-  text-decoration: none;
-  border-bottom: 2px solid #f72210
-}
-
 .card-link-custom:hover,
 .card-link-custom:active {
   color: #f72210;
@@ -50,7 +41,7 @@ h4 {
 
 .capitalize {
   text-transform: uppercase;
-  color: rgba(3, 3, 3, 0.4)
+  color: rgba(3, 3, 3, 0.4);
 }
 
 .container-header {
@@ -58,7 +49,7 @@ h4 {
   justify-content: center;
 }
 
-.container-header>* {
+.container-header > * {
   align-self: center;
   margin: 0;
 }
@@ -79,7 +70,7 @@ h4 {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: rgba(255, 255, 255, .9);
+  background: rgba(255, 255, 255, 0.9);
   color: #f72210;
   padding: 5px 1rem;
   font-weight: bold;
@@ -120,7 +111,7 @@ h4 {
 
 #top-search {
   margin-left: -1rem;
- }
+}
 
 .btn-custom {
   background-color: #f72210;
@@ -144,7 +135,7 @@ h4 {
   color: #f72210 !important;
 }
 
-.header-custom>span {
+.header-custom > span {
   background-color: #f72210;
   color: white;
 }
@@ -181,4 +172,13 @@ nav {
 
 .footer__header img {
   width: 15rem;
+}
+
+h3 > a:hover,
+h3 > a:active,
+h4 > a:hover,
+h4 > a:active {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid #f72210;
 }
