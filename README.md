@@ -16,10 +16,10 @@
 
 ## Getting Started
 
-- Click 'clone or download' button.
+- Click `clone or download` button.
 - Download zipped file.
 - Extract it on your local machine.
-- Double click the index.html file in the extracted folder to have it opened in your browser.
+- Double click the `index.html` file in the extracted folder to have it opened in your browser.
 
 ## Authors
 
