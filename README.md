@@ -39,6 +39,10 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgements
+- [Microverse](https://www.microverse.org/)
+- [The Odin Project](https://www.theodinproject.com/)
+
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
